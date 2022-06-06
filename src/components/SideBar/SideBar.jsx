@@ -19,9 +19,12 @@ function SideBar() {
       <strong className='sidebar__title'>PLAYLISTS</strong>
       <hr />
       
-      <SideBarOptions title="Discover Weekly"/>
-      <SideBarOptions title="Your Top Tracks"/>
-      <SideBarOptions title="Your Top Artists"/>
+      {playlists?.items?.map(playlist =>{
+        return (
+          <SideBarOptions title={playlist.name} />
+        )
+      }
+        )}
       </div>
   )
 }

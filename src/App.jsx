@@ -6,8 +6,6 @@ import { getTokenFromResponse } from './Spotify';
 import SpotifyWebApi from 'spotify-web-api-js'
 import { useDataLayerValue } from './DataLayer';
 
-// client ID: 3cbfa619ede64419bf1e14b98a56b7b9
-//https://www.youtube.com/watch?v=pnkuI8KXW_8 min 1:23:00
 //prop drilling is a way to access props from a parent component, we use redux or react context
 
 const spotify = new SpotifyWebApi();

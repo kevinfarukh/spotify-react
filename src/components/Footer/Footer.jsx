@@ -13,7 +13,7 @@ function Footer() {
   return (
     <div className='footer'>
       <div className="footer__left">
-        <img className='footer__albumLogo' src="" alt="" />
+        <img className='footer__albumLogo' src="https://upload.wikimedia.org/wikipedia/en/6/60/GunsnRosesAppetiteforDestructionalbumcover.jpg" alt="Appetite for destruction" />
         <div className="footer__songInfo">
           <h4>Sweet child o mine</h4>
           <p>Guns n roses</p>
